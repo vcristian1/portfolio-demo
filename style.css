@@ -4,14 +4,14 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-main header nav {
+/* Structure for navagation bar */
+header nav {
     display: flex;
     flex-direction: row;
     justify-content:right;
-    margin-right: 100px;
+    margin-right: 110px;
     margin-top: 20px;
 }
-
 
 header #nav-container nav ul {
     list-style: none;
@@ -22,49 +22,61 @@ header #nav-container nav ul li {
     display: inline-block;
 }
 
-header #nav-container nav ul a {
+header #nav-container nav ul li a {
     text-decoration: none;
     font-size: 15px;
     padding: 10px;
     color: #caf0f8;
+    text-align: center;
 }
 
 header #nav-container nav ul a:hover {
     color: #8980f5;
 }
 
+/* Structure and Styling for "C" logo */
+header #nav-container nav div img {
+    display: inline-block;
+    width: 105px;
+    height: 90px;
+    border: 2.5px solid #03045e;
+    border-radius: 100%;
+    justify-content: left;
+    margin-right: 1300px;
+    margin-top: 20px;
 
+}
+/* 
+Structure for main heading */
 .header2 #name-container {
     margin-top: 50px;
-    margin-left: 400px;
-    margin-right: 400px;    
+    margin-left: 300px;
+    margin-right: 500px;   
+
 }
 
 .header2 #name-container span {
     font-size: 20px;
-    color:#caf0f8;
+    color:#5e60ce;
 }
 
 .header2 #name-container h1 {
-    font-size: 100px;
-    color:#03045e;
-    text-shadow: 4px 2px 6px #caf0f8;
-}
-
-.header2 #name-container h1:hover {
-    /* text-shadow: 4px 4px 20px #6930c3; */
-
+    font-size: 80px;
+    color:#caf0f8;
 }
 
 .header2 #name-container p {
-    color:#caf0f8;
+    color:#caf0f8; 
     font-size: 20px;
+    margin-right: 300px;
+    opacity: 50%;
 }
 
+/* Unison Structure/Styling for all sections of main content */
 main section {
-    margin-top: 100px;
+    margin-top: 200px;
     margin-left: 200px;
-    margin-right: 200px;    
+    margin-right: 300px;    
 }
 
 main section h2 {
@@ -72,20 +84,87 @@ main section h2 {
 }
 
 main section p {
-    color: #caf0f8;
+    color: #03045e;
     font-size: 20px;
 }
 
-main section #img-container {
-    display: inline-block;
-}
 main section img {
-    width:350px;
-    height: 350px;
-    border: 5px solid #6930C3;
+    width:300px;
+    height: 300px;
+    border: 5px solid #03045e;
     border-radius: 100%;
+}
+
+/* Styling for anchor tags inside the About section */
+main .About a {
+    text-decoration:none;
+    color: #7400b8;
+}
+
+/* Structure/Styling for the Experience section  */
+main .Experience {
+    text-align: left;
+}
+
+main .Experience div ol {
+    list-style: none;
+    text-decoration: none;
+}
+
+main .Experience div ol li {
+    display: inline-block;
+    padding: 10px;
+    color: #03045e;
+    font-size: 20px;
+}
+
+main .Experience a {
+    text-decoration:none;
+    color: #7400b8;
+    font-size: 20px;
     
 }
+
+main section p a {
+    text-decoration:none;
+    color: #7400b8;
+}
+
+section div nav {
+    margin-top: 50px;
+}
+
+section div nav ul {
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    
+}
+
+section div nav ul li {
+    display: inline-block;
+}
+
+section div nav ul li a {
+    text-decoration: none;
+    padding: 50px;
+    color: #caf0f8;
+
+}
+
+section div nav ul li a:hover {
+    color:  #03045e
+
+}
+
+footer {
+    margin-top: 100px;
+    text-align: center;
+    font-size: small;
+    color: #03045e;
+}
+
+
  
 
 
