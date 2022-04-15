@@ -58,7 +58,7 @@ Structure for main heading */
 
 .header2 #name-container span {
     font-size: 20px;
-    color:#5E60CE;
+    color:#72EFDD;
     font-style: italic;
 }
 
@@ -154,8 +154,8 @@ main .projects img {
 /* Contact Section Structure and Styling */
 main .contact img {
     border-radius: 100%;
-    width:150px;
-    height: 150px;
+    width:125px;
+    height: 125px;
 }
 
 section div nav {
