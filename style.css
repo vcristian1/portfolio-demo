@@ -208,6 +208,8 @@ footer {
     color: #03045e;
 }
 
+/* ALL MEDIA QUERIES BELOW */
+
 /* Laptop */
 @media screen and (max-width:1368px) {
     header nav {
@@ -231,7 +233,7 @@ footer {
         border: 2.5px solid #03045e;
         border-radius: 100%;
         justify-content: left;
-        margin-right: 550px;
+        margin-right: 580px;
         margin-top: 0px;
     }
 
