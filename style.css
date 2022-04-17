@@ -32,7 +32,8 @@ header #nav-container nav ul li a {
 }
 
 header #nav-container nav ul a:hover {
-    color: #8980f5;
+    color: #72EFDD;
+
 }
 
 /* Structure and Styling for "C" logo */
@@ -105,6 +106,10 @@ main .About a {
     color: #14ddac;
 }
 
+main .About a:hover {
+    text-decoration: underline;
+}
+
 main .About img {
     border-radius: 100%;
     width: 400px;
@@ -136,15 +141,23 @@ main .Experience a {
     text-decoration:none;
     color: #14ddac;
     font-size: 20px;
-    
+
 }
 
-main section p a {
-    text-decoration:none;
-    color: #6930C3;
+main .Experience a:hover {
+    text-decoration: underline;
 }
 
 /* Projects Section Styling and Structure */
+
+main section p a {
+    text-decoration:none;
+    color: #7400b8;
+}
+
+main section p a:hover {
+    text-decoration: underline;
+}
 
 main .projects img {
     width: 450px;
@@ -178,6 +191,7 @@ section div nav ul li a {
     padding: 50px;
     color:  #7400b8;
     font-size: 20px;
+    font-style: italic;
 
 }
 
@@ -192,4 +206,293 @@ footer {
     text-align: center;
     font-size: 10px;
     color: #03045e;
+}
+
+/* Laptop */
+@media screen and (max-width:1368px) {
+    header nav {
+    margin-right: 150px;
+    margin-top: 50px;
+    }
+
+    header #nav-container nav ul li a {
+        text-decoration: none;
+        font-size: 25px;
+        padding: 10px;
+        color: #caf0f8;
+        text-align: left;
+        font-style: italic;
+    }    
+
+    header #nav-container nav div img {
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        border: 2.5px solid #03045e;
+        border-radius: 100%;
+        justify-content: left;
+        margin-right: 550px;
+        margin-top: 0px;
+    }
+
+    .header2 #name-container {
+        margin-top: 175px;
+        margin-left: 175px;
+        margin-right: 125px;   
+    
+    }
+
+    .header2 #name-container span {
+        font-size: 25px;
+        color:#72EFDD;
+        font-style: italic;
+    }
+
+    .header2 #name-container h1 {
+        font-size: 80px;
+        color:#caf0f8;
+    }
+    
+    .header2 #name-container p {
+        color:#caf0f8; 
+        font-size: 25px;
+        margin-right: 150px;
+        opacity: 50%;
+    }
+
+    /* unison styling start */
+
+    main section {
+        margin-top: 175px;
+        margin-left: 175px;
+        margin-right: 125px;   
+    }
+    
+    main section h2 {
+        color:#03045e;
+        font-size: 35px;
+    }
+    
+    main section p {
+        color: #03045e;
+        font-size: 25px;
+        margin-right: 100px;
+    
+    }
+    
+    main section img {
+        width:300px;
+        height: 300px;
+        border: 5px solid #03045e;
+    }
+
+    /* unison styling end */
+
+    main .About img {
+        border-radius: 100%;
+        width: 300px;
+        height: 300px;
+    }
+
+    section div nav ul li a {
+        text-decoration: none;
+        padding: 20px;
+        color:  #7400b8;
+        font-size: 25px;
+        font-style: italic;
+    }
+}
+
+/* Large Smartphone */
+@media screen and (max-width:768px) {
+    header nav {
+    margin-right: 100px;
+    margin-top: 50px;
+    }
+
+    header #nav-container nav ul li {
+        display: inline-block;
+    }
+
+    header #nav-container nav ul li a {
+        text-decoration: none;
+        font-size: 20px;
+        padding: 5px;
+        color: #caf0f8;
+        text-align: left;
+        font-style: italic;
+    }    
+
+    header #nav-container nav div img {
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        border: 2.5px solid #03045e;
+        border-radius: 100%;
+        justify-content: left;
+        margin-right: 140px;
+        margin-top: 0px;
+    }
+
+    .header2 #name-container {
+        margin-top: 100px;
+        margin-left: 100px;
+        margin-right: 50px;   
+    
+    }
+
+    .header2 #name-container span {
+        font-size: 15px;
+        color:#72EFDD;
+        font-style: italic;
+    }
+
+    .header2 #name-container h1 {
+        font-size: 60px;
+        color:#caf0f8;
+    }
+    
+    .header2 #name-container p {
+        color:#caf0f8; 
+        font-size: 20px;
+        margin-right: 150px;
+        opacity: 50%;
+    }
+
+    /* unison styling start */
+
+    main section {
+        margin-top: 100px;
+        margin-left: 100px;
+        margin-right: 150px;    
+    }
+    
+    main section h2 {
+        color:#03045e;
+        font-size: 30px;
+    }
+    
+    main section p {
+        color: #03045e;
+        font-size: 20px;
+        margin-right: 50px;
+    
+    }
+    
+    main section img {
+        width:300px;
+        height: 300px;
+        border: 5px solid #03045e;
+    }
+
+    /* unison styling end */
+
+    main .About img {
+        border-radius: 100%;
+        width: 300px;
+        height: 300px;
+    }
+
+    section div nav ul li a {
+        text-decoration: none;
+        padding: 15px;
+        color:  #7400b8;
+        font-size: 20px;
+        font-style: italic;
+    }
+}
+
+/* Large Tablet */
+@media screen and (max-width:992px) {
+    header nav {
+    margin-right: 100px;
+    margin-top: 20px;
+    }
+
+    header #nav-container nav ul li a {
+        text-decoration: none;
+        font-size: 25px;
+        padding: 10px;
+        color: #caf0f8;
+        text-align: left;
+        font-style: italic;
+    }    
+
+    header #nav-container nav div img {
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        border: 2.5px solid #03045e;
+        border-radius: 100%;
+        justify-content: left;
+        margin-right: 250px;
+        margin-top: 0px;
+    }
+
+    .header2 #name-container {
+        margin-top: 100px;
+        margin-left: 100px;
+        margin-right: 50px;   
+    
+    }
+
+    .header2 #name-container span {
+        font-size: 15px;
+        color:#72EFDD;
+        font-style: italic;
+    }
+
+    .header2 #name-container h1 {
+        font-size: 60px;
+        color:#caf0f8;
+    }
+    
+    .header2 #name-container p {
+        color:#caf0f8; 
+        font-size: 20px;
+        margin-right: 150px;
+        opacity: 50%;
+    }
+
+    /* unison styling start */
+
+    main section {
+        margin-top: 100px;
+        margin-left: 100px;
+        margin-right: 150px;    
+    }
+    
+    main section h2 {
+        color:#03045e;
+        font-size: 30px;
+    }
+    
+    main section p {
+        color: #03045e;
+        font-size: 20px;
+        margin-right: 50px;
+    
+    }
+    
+    main section img {
+        width:300px;
+        height: 300px;
+        border: 5px solid #03045e;
+    }
+
+    /* unison styling end */
+
+    main .About img {
+        border-radius: 100%;
+        width: 300px;
+        height: 300px;
+    }
+
+    section div nav ul li a {
+        text-decoration: none;
+        padding: 15px;
+        color:  #7400b8;
+        font-size: 20px;
+        font-style: italic;
+    }
 }
