@@ -148,6 +148,10 @@ main .Experience a:hover {
     text-decoration: underline;
 }
 
+#light-text {
+    color:#caf0f8;
+}
+
 /* Projects Section Styling and Structure */
 
 main section p a {
@@ -302,6 +306,9 @@ footer {
         color:  #7400b8;
         font-size: 25px;
         font-style: italic;
+    }
+    footer {
+        color: #03045e;
     }
 }
 
